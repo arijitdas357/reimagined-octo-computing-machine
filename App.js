@@ -5,8 +5,8 @@ import { StyleSheet, Text, View , TextInput , Button } from 'react-native';
 const App = () => {
   return (
    <View style={{padding:50}}  >
-     <View>
-     <TextInput placeholder="Course Goal"  style={{borderColor:'black',borderBottomWidth:1}} />
+     <View style={{flexDirection:'row'}}>
+     <TextInput placeholder="Course Goal"  style={{borderColor:'black',borderWidth:1}} />
      <Button title="ADD" />
      </View>
      <View>

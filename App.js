@@ -7,7 +7,7 @@ const App = () => {
    <View style={styles.screen}  >
      <View style={styles.inputContainer}>
      <TextInput placeholder="Course Goal"  style={styles.input} />
-     <Button title="ADDI" />
+     <Button title="ADDIa" />
      </View>
      <View>
 
